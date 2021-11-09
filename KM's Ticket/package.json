@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "KM's Ticket Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "16.6.0.x"
+  },
+  "author": "Mr. KM",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^13.2.0",
+    "express": "^4.17.1",
+    "jimp": "^0.16.1",
+    "quick.db": "^7.1.3"
+  }
+}
